@@ -42,5 +42,38 @@
   "codeLens.enable": true,
   "[json]": {
     "coc.preferences.formatOnSave": true
-  }
+  },
+  "colors.enable": true,
+  "inlayHint.enable": true,
+  "suggest.floatConfig": {
+    "border": true
+  },
+  "diagnostic.floatConfig": {
+    "border": true
+  },
+  "signature.floatConfig": {
+    "border": true
+  },
+  "hover.floatConfig": {
+    "border": true
+  },
+
+  "languageserver": {
+    "clangd": {
+      "command": "clangd",
+      "rootPatterns": ["compile_flags.txt", "compile_commands.json", ".git"],
+      "filetypes": ["c", "cpp", "cc", "hpp", "objc", "objcpp"]
+    },
+    "cmake": {
+      "command": "cmake-language-server",
+      "filetypes": ["cmake"],
+      "rootPatterns": ["build/"],
+      "initializationOptions": {
+        "buildDirectory": "build"
+      }
+    }
+  },
+
+  "java.enabled": true,
+  "jedi.enable": true
 }

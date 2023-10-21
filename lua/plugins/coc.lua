@@ -10,10 +10,9 @@ function _G.check_back_space()
 end
 
 local opts = { silent = true, noremap = true, expr = true, replace_keycodes = false }
--- keyset("i", "<TAB>", 'coc#pum#visible() ? coc#pum#next(1) : v:lua.check_back_space() ? "<TAB>" : coc#refresh()', opts)
--- keyset("i", "<S-TAB>", [[coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"]], opts)
+keyset("i", "<C-j>", [[coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"]], opts)
 keyset("i", "<c-space>", "coc#refresh()", { silent = true, expr = true })
-keyset("i", "<c-j>", "<Plug>(coc-snippets-expand-jump)")
+-- keyset("i", "<c-j>", "<Plug>(coc-snippets-expand-jump)")
 keyset("n", "<Leader>-", "<Plug>(coc-diagnostic-prev)", { silent = true })
 keyset("n", "<Leader>=", "<Plug>(coc-diagnostic-next)", { silent = true })
 

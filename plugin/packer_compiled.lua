@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
+  ["coc-jedi"] = {
+    loaded = true,
+    path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc-jedi",
+    url = "https://github.com/pappasam/coc-jedi"
+  },
   ["coc.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim",
@@ -109,15 +114,31 @@ _G.packer_plugins = {
     path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox-material",
     url = "https://github.com/sainnhe/gruvbox-material"
   },
+  indentLine = {
+    loaded = true,
+    path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\indentLine",
+    url = "https://github.com/Yggdroot/indentLine"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
+  },
   nerdtree = {
     loaded = true,
     path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nerdtree",
     url = "https://github.com/preservim/nerdtree"
+  },
+  ["nvim-autopairs"] = {
+    config = { "\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
+    loaded = true,
+    path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -135,6 +156,21 @@ _G.packer_plugins = {
     path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["telescope-file-browser.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope-file-browser.nvim",
+    url = "https://github.com/nvim-telescope/telescope-file-browser.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
   ["tokyonight.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight.nvim",
@@ -144,10 +180,19 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-devicons",
     url = "https://github.com/ryanoasis/vim-devicons"
+  },
+  ["vista.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vista.vim",
+    url = "https://github.com/liuchengxu/vista.vim"
   }
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: nvim-autopairs
+time([[Config for nvim-autopairs]], true)
+try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
+time([[Config for nvim-autopairs]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
