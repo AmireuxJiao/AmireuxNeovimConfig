@@ -90,15 +90,11 @@ return require('packer').startup(function(use)
       branch = 'main',
   }
 ----------------------------------------------------------------------------
-  use {
-    "Yggdroot/indentLine"
-  }
 ----------------------------------------------------------------------------
   use {
     "liuchengxu/vista.vim"
   }
 ----------------------------------------------------------------------------
-  -- install without yarn or npm
   use {
       "iamcco/markdown-preview.nvim",
       run = function() vim.fn["mkdp#util#install"]() end,

@@ -1,6 +1,6 @@
 local opt = vim.opt
 -- opt.guifont="ShureTechMono Nerd Font Mono:h14"
-opt.guifont="CaskaydiaCove Nerd Font Mono:h13"
+opt.guifont="CaskaydiaCove Nerd Font Mono:h11"
 -- opt.guifont="CodeNewRoman Nerd Font Mono:h13"
 -- opt.guifont="Hurmit Nerd Font Mono:h12"
 -- opt.guifont="Mononoki Nerd Font Mono:h13"
@@ -9,7 +9,7 @@ opt.guifont="CaskaydiaCove Nerd Font Mono:h13"
 
 -- opt.gfw="Source Han Sans:h13:cGB2312:b"
 --
-opt.gfw="Maple Mono SC NF:h13:cGB2312"
+opt.gfw="Maple Mono SC NF:h11:cGB2312"
 
 -- 行号
 opt.relativenumber = true

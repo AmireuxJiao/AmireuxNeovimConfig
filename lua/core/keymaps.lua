@@ -39,8 +39,8 @@ keymap.set("n", "<C-l>", "<C-w>l", opts)
 keymap.set("n","<leader>nh", ":nohl<CR>")
 
 -- 切换buffer --
-keymap.set("n", "<C-.>", ":bnext<CR>")
-keymap.set("n", "<C-,>", ":bprevious<CR>")
+keymap.set("n", "<M-]>", ":bnext<CR>")
+keymap.set("n", "<M-[>", ":bprevious<CR>")
 
 -- 缩进代码--
 keymap.set("v", "<", "<gv")
@@ -67,5 +67,8 @@ vim.api.nvim_set_keymap("n", "<leader>dn", ":bdelete %<CR>", {silent = true, nor
 -- 单行多行移动
 keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+
+-- formatter
+keymap.set("n", "<leader>f", ":Format<CR>", opts)
 
 

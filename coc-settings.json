@@ -73,7 +73,9 @@
       }
     }
   },
-
   "java.enabled": true,
-  "jedi.enable": true
+  "jedi.enable": true,
+  "cmake.cmakePath": "D:/1_tools.file.works/7_code.compiler/cmake/bin/cmake.exe",
+  "cmake.lsp.enable": true,
+  "cmake.formatter": "cmake-format"
 }

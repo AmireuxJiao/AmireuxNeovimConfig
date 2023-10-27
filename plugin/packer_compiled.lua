@@ -114,11 +114,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox-material",
     url = "https://github.com/sainnhe/gruvbox-material"
   },
-  indentLine = {
-    loaded = true,
-    path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\indentLine",
-    url = "https://github.com/Yggdroot/indentLine"
-  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Amireux\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
